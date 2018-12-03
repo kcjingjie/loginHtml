@@ -1,0 +1,158 @@
+<style type="text/css">
+    a{
+        text-decoration:none;
+        color:#333;
+    }
+    .content {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .main {
+        width: 100%;
+        background-color: #e5f3ff;
+        position: relative;
+    }
+    .bg {
+    }
+    .logo {
+        display: inline-block;
+    }
+    .contact {
+        float: right;
+        height: 70px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        font-family: "Microsoft YaHei UI";
+    }
+    .phone {
+        height: 70px;
+        line-height: 70px;
+        margin: 0 auto;
+    }
+
+    .footer {
+
+    }
+    .info {
+        display: table;
+        margin: 0 auto;
+        height: 80px;
+        line-height: 80px;
+        font-family: "Microsoft YaHei UI";
+    }
+    .input_control{
+        width: 340px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .login .input_control:nth-child(1){
+        width: 340px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .login .input_control:nth-child(3){
+        padding-bottom: 20px;
+    }
+    input[type="text"]{
+        -web-kit-appearance:none;
+        -moz-appearance: none;
+        font-size: 14px;
+        height: 50px;
+        margin: auto;
+        width: 90%;
+        border-radius: 4px;
+        border: 1px solid rgb(178, 178, 178);
+        padding: 10px 5px 10px 32px;
+    }
+    #btn1{
+        -web-kit-appearance:none;
+        -moz-appearance: none;
+        font-size: 20px;
+        height: 50px;
+        margin: auto;
+        width: 90%;
+        border-radius: 4px;
+        color: #fff;
+        border: 1px solid rgb(178, 178, 178);
+        padding: 10px 5px 10px 5px;
+        background:  rgb(64, 158, 255);
+    }
+    .input_checkbox{
+        width: 100px;
+        height: 20px;
+        line-height: 20px;
+        background-color: #fff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 20px;
+    }
+    .login{
+        background-color: #ffffff;
+        position: absolute;
+        top: 20%;
+        right: 100px;
+        width: 340px;
+        border-radius:10px
+    }
+    .login a:nth-child(1){
+        float: left;
+        width: 30%;
+        height: 60px;
+        font-size: 17px;
+        line-height: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        font-family: "Microsoft YaHei UI";
+        border-bottom: 3px solid rgb(64, 158, 255);
+    }
+    .login a:nth-child(2){
+        font-size: 17px;
+        width: 30%;
+        height: 60px;
+        line-height: 50px;
+        float: right;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Microsoft YaHei UI";
+        border-bottom: 3px solid rgb(64, 158, 255);;
+    }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<div class="content nav">
+    <div class="logo">
+        <img src="logo.png"/>
+    </div>
+    <div class="contact">
+        <img src="tel.png"/>&nbsp;&nbsp;<label class="phone">400-896-1866</label>
+    </div>
+</div>
+<div class="main">
+    <div class="login">
+        <div style="height: 50px;padding: 10px 20px;text-align: center;border-bottom: 1px solid rgb(178, 178, 178)">
+            <a href="#">账号登录</a>
+            <a href="#">快速注册</a>
+        </div>
+        <form action="#" method="get">
+            <div class="input_control">
+                <input type="text" class="from_input" placeholder="请输入用户名/手机号"/>
+            </div>
+            <div class="input_control">
+                <input type="text" class="from_input" placeholder="请输入密码"/>
+            </div>
+            <div class="input_checkbox">
+                <input type="checkbox" style="display: inline-block;"><span style="display: inline-block;font-size: 12px;font-style: italic;">记住密码</span>
+            </div>
+            <div class="input_control">
+                <input id="btn1" type="submit" value="登 录"/>
+            </div>
+        </form>
+    </div>
+    <div class="content bg">
+        <img src="bgp.jpg"/>
+    </div>
+</div>
+<div class="content footer">
+    <div style="margin: 0 auto;text-align: center" class="info">Copyright ©2013-2018 智鹰 京ICP备15023541号-3</div>
+</div>
