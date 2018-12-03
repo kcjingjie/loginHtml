@@ -91,7 +91,7 @@
         background-color: #ffffff;
         position: absolute;
         top: 20%;
-        right: 100px;
+        right: 0px;
         width: 340px;
         border-radius:10px
     }
@@ -129,25 +129,27 @@
     </div>
 </div>
 <div class="main">
-    <div class="login">
-        <div style="height: 50px;padding: 10px 20px;text-align: center;border-bottom: 1px solid rgb(178, 178, 178)">
-            <a href="#">账号登录</a>
-            <a href="#">快速注册</a>
+    <div style="position: absolute;height: 100%;width: 1200px;margin:auto;left:0; right:0; top:0; bottom:0;">
+        <div class="login">
+            <div style="height: 50px;padding: 10px 20px;text-align: center;border-bottom: 1px solid rgb(178, 178, 178)">
+                <a href="#">账号登录</a>
+                <a href="#">快速注册</a>
+            </div>
+            <form action="#" method="get">
+                <div class="input_control">
+                    <input type="text" class="from_input" placeholder="请输入用户名/手机号"/>
+                </div>
+                <div class="input_control">
+                    <input type="text" class="from_input" placeholder="请输入密码"/>
+                </div>
+                <div class="input_checkbox">
+                    <input type="checkbox" style="display: inline-block;"><span style="display: inline-block;font-size: 12px;font-style: italic;">记住密码</span>
+                </div>
+                <div class="input_control">
+                    <input id="btn1" type="submit" value="登 录"/>
+                </div>
+            </form>
         </div>
-        <form action="#" method="get">
-            <div class="input_control">
-                <input type="text" class="from_input" placeholder="请输入用户名/手机号"/>
-            </div>
-            <div class="input_control">
-                <input type="text" class="from_input" placeholder="请输入密码"/>
-            </div>
-            <div class="input_checkbox">
-                <input type="checkbox" style="display: inline-block;"><span style="display: inline-block;font-size: 12px;font-style: italic;">记住密码</span>
-            </div>
-            <div class="input_control">
-                <input id="btn1" type="submit" value="登 录"/>
-            </div>
-        </form>
     </div>
     <div class="content bg">
         <img src="bgp.jpg"/>
